@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "oewn-verb-analysis"
+version = "0.1.0"
+description = ""
+authors = ["John P. McCrae <john@mccr.ae>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+wn = "^0.9.5"
+networkx = "^3.3"
+scipy = "^1.14.1"
+tqdm = "^4.66.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
