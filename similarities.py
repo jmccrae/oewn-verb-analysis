@@ -10,7 +10,7 @@ def load_simverb():
     with open("SimVerb-3500.txt") as f:
         lines = f.readlines()
         for line in lines:
-            word1, word2, _, score, rel = line.split('\t')
+            word1, word2, _, score, rel = line.strip().split('\t')
             if rel != "ANTONYMS":
                 simverb[(word1, word2)] = float(score)
     return simverb

@@ -1,1 +1,5 @@
 VerbAtlas-1.1.0/
+poetry.lock
+similarity_oewn:2024.txt
+similarity_omw-en.txt
+tmp.py
